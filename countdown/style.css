@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1624916888948-7015aa2b25b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-position: center center;
+  background-size: cover;
+  font-family: "Fira Code", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+h1{
+  font-weight: normal;
+  font-size:35px;
+  margin-top: 10rem;
+}
+.count-container{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.589);
+  padding: 20px;
+  color:rgb(218, 218, 218);
+  border-radius: 8px;
+}
+.title{
+  font-weight: bold;
+  font-size:50px;
+  line-height: 1;
+  margin:0 2rem;
+}
+.elementoscount{
+  text-align: center;
+}
+.elementoscount span{
+  font-size:15px;
+}
