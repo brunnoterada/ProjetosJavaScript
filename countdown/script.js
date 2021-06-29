@@ -21,10 +21,14 @@ function contador(){
 
     //editar o elemento no html
 
-    vardias.innerHTML = dias; 
-    varhoras.innerHTML = horas; 
-    varmin.innerHTML = mins; 
-    varsec.innerHTML = seconds;   
+    vardias.innerHTML = formatarNumero(dias); 
+    varhoras.innerHTML = formatarNumero(horas); 
+    varmin.innerHTML = formatarNumero(mins); 
+    varsec.innerHTML = formatarNumero(seconds);   
+}
+function formatarNumero(time){
+    return time < 10 ? `0${time}` : time;
+
 }
 
 contador();
