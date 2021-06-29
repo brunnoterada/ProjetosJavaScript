@@ -10,28 +10,30 @@
   </head>
   <body>
     <div class="quiz-container">
+      <div id="quiz-header">
       <div class="quiz-header">
-        <h2>Questão</h2>
+        <h2 id="questaoTitle">Questão</h2>
         <ul>
           <li>
-            <input type="radio" id="a" name="resposta" />
-            <label for="a">Questão</label>
+            <input type="radio" id="a" name="resposta" class="resposta" />
+            <label id="a_texto" for="a">Questão</label>
           </li>
           <li>
-            <input type="radio" id="b" name="resposta" />
-            <label for="b">Questão</label>
+            <input type="radio" id="b" name="resposta" class="resposta" />
+            <label id="b_texto" for="b">Questão</label>
           </li>
           <li>
-            <input type="radio" id="c" name="resposta" />
-            <label for="c">Questão</label>
+            <input type="radio" id="c" name="resposta" class="resposta" />
+            <label id="c_texto" for="c">Questão</label>
           </li>
           <li>
-            <input type="radio" id="d" name="resposta" />
-            <label for="d">Questão</label>
+            <input type="radio" id="d" name="resposta" class="resposta" />
+            <label id="d_texto" for="d">Questão</label>
           </li>
         </ul>
       </div>
-      <button>Enviar</button>
+      <button id="enviar">Enviar</button>
+      </div>
     </div>
   </body>
 </html>
