@@ -32,27 +32,33 @@ body {
 .quiz-header {
   padding: 4rem;
 }
+h2 {
+  padding: 1rem;
+  text-align: center;
+}
 ul {
   list-style-type: none;
   padding: 0;
 }
-ul li{
-  font-size:1.2rem;
-  margin:1rem 0;
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
 }
-ul li label{
-  cursor:pointer;
+ul li label {
+  cursor: pointer;
 }
 button {
-  background-color: #74b9ff;
+  background-color: #0984e3;
   border: none;
   color: white;
   display: block;
   font-family: inherit;
   font-size: 1.3rem;
   width: 100%;
+  border-radius: 0 0 4px 4px;
   padding: 1rem;
 }
 button:hover {
-  background-color: #0984e3;
+  cursor: pointer;
+  background-color: #74b9ff;
 }
