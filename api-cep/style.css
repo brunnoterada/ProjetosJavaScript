@@ -102,3 +102,6 @@ body {
 footer {
   color: var(--primary-color);
 }
+.local {
+  color: var(--primary-color);
+}

@@ -32,6 +32,8 @@ const cleanForm = () => {
 
 //função para autocompletar o form em javascript
 const preencherFormulario = (endereco) => {
+  const local = document.getElementById("local");
+  local.innerText = `Sua rua é ${endereco.logradouro}`;
   document.getElementById("endereco").value = endereco.logradouro;
   document.getElementById("bairro").value = endereco.bairro;
   document.getElementById("cidade").value = endereco.localidade;
